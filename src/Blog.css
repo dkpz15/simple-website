@@ -1,0 +1,47 @@
+.h2-error {
+  color: red;
+  text-align: center;
+}
+.circle-loading {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: transparent;
+  border-top: 10px solid blue;
+  border-bottom: 10px solid red;
+  border-left: 10px solid green;
+  border-right: 10px solid purple;
+  animation: rotate 1s linear infinite;
+  margin-left: 50vw;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.div-responsive {
+  display: flex;
+  flex-direction: column;
+}
+.card-spaceflight {
+  background-color: gainsboro;
+  padding: 20px 0 5px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+}
+.img-spaceflight {
+  width: 200px;
+  height: 150px;
+}
+.div-letter {
+  margin-left: 10px;
+}
+.div-letter a {
+  text-decoration: none;
+}
+.div-letter a:hover {
+  text-decoration: underline;
+}
